@@ -2,11 +2,10 @@
 
 import os
 
-# print(os.getcwd()) # pwd
+print(os.getcwd()) # pwd
 os.chdir("/Users/vishnumano/Desktop") # cd
-# print(os.listdir()) # ls
+print(os.listdir()) # ls
 
-# Rename
 counter = 1
 for file in os.listdir():
     if file[0] == ".":
